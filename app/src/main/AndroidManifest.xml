@@ -20,7 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YoutubeAlt"
-        android:cleartextTrafficPermitted="true" >
+        android:usesCleartextTraffic="true" >
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
