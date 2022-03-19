@@ -2,4 +2,4 @@ package com.resurrection.youtubealt.ui.main
 
 import com.resurrection.base.core.viewmodel.BaseViewModel
 
-class MainActivityViewModel:BaseViewModel()
+class MainViewModel:BaseViewModel()
