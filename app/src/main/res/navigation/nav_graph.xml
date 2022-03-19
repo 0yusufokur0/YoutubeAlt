@@ -6,18 +6,18 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.resurrection.youtubealt.ui.home.HomeFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.home.HomeFragment"
         android:label="HomeFragment" />
     <fragment
         android:id="@+id/discoverFragment"
-        android:name="com.resurrection.youtubealt.ui.discover.DiscoverFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.discover.DiscoverFragment"
         android:label="DiscoverFragment" />
     <fragment
         android:id="@+id/libraryFragment"
-        android:name="com.resurrection.youtubealt.ui.library.LibraryFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.library.LibraryFragment"
         android:label="LibraryFragment" />
     <fragment
         android:id="@+id/subscriptionsFragment"
-        android:name="com.resurrection.youtubealt.ui.subscriptions.SubscriptionsFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.subscriptions.SubscriptionsFragment"
         android:label="SubscriptionsFragment" />
 </navigation>

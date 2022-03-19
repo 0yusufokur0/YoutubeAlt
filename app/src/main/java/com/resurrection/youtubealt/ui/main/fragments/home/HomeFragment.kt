@@ -1,4 +1,4 @@
-package com.resurrection.youtubealt.ui.home
+package com.resurrection.youtubealt.ui.main.fragments.home
 
 import android.os.Bundle
 import com.resurrection.base.core.fragment.BaseFragment

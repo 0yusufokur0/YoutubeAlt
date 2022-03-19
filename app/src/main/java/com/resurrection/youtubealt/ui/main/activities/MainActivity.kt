@@ -1,4 +1,4 @@
-package com.resurrection.youtubealt.ui.main
+package com.resurrection.youtubealt.ui.main.activities
 
 import android.os.Bundle
 import androidx.navigation.NavController

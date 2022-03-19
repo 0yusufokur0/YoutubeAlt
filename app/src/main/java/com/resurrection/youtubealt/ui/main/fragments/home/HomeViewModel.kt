@@ -1,6 +1,5 @@
-package com.resurrection.youtubealt.ui.home
+package com.resurrection.youtubealt.ui.main.fragments.home
 
-import androidx.lifecycle.ViewModel
 import com.resurrection.base.core.viewmodel.BaseViewModel
 
 class HomeViewModel :BaseViewModel()

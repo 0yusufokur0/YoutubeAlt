@@ -22,7 +22,7 @@
         android:theme="@style/Theme.YoutubeAlt"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.main.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

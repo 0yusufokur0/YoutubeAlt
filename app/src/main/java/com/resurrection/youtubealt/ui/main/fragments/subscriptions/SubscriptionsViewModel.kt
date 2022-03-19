@@ -1,4 +1,4 @@
-package com.resurrection.youtubealt.ui.subscriptions
+package com.resurrection.youtubealt.ui.main.fragments.subscriptions
 
 import com.resurrection.base.core.viewmodel.BaseViewModel
 
