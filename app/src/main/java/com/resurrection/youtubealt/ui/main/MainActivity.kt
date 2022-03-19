@@ -8,7 +8,9 @@ import androidx.navigation.fragment.findNavController
 import com.resurrection.base.core.activity.BaseActivity
 import com.resurrection.youtubealt.R
 import com.resurrection.youtubealt.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding, MainActivityViewModel>(
     R.layout.activity_main,
     MainActivityViewModel::class.java
