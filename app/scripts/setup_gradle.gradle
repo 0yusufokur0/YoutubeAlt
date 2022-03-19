@@ -20,28 +20,15 @@ android {
     }
 
 
-    def variantConfig = new VariantConfig("dev", "https://jsonplaceholder.typicode.com", false, true, ".")
+    def variantConfig = new VariantConfig("dev", "https://pipedapi.kavin.rocks/", false, false, "GoogleApiKey")
     flavorDimensions 'productFlavors'
 
     productFlavors{
         dev{
             variantConfig.setVariantName("dev")
-            variantConfig.setApiUrl("https://jsonplaceholder.typicode.com")
-            variantConfig.setCheckRootEnabled(true)
-            variantConfig.setLoggerEnabled(true)
-            variantConfig.setGoogleApiKey("asdasd")
-        }
-        preProd{
-            variantConfig.setVariantName("preProd")
-            variantConfig.setCheckRootEnabled(true)
-            variantConfig.setLoggerEnabled(true)
-            variantConfig.setGoogleApiKey("asd")
         }
         prod{
             variantConfig.setVariantName("prod")
-            variantConfig.setCheckRootEnabled(true)
-            variantConfig.setLoggerEnabled(true)
-            variantConfig.setGoogleApiKey("asdasd")
         }
     }
 
