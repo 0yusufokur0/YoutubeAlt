@@ -15,12 +15,11 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainActivityViewModel>(
     R.layout.activity_main,
     MainActivityViewModel::class.java
 ) {
+
+     val navController: NavController by lazy { (supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment?)?.navController!! }
+
     override fun init(savedInstanceState: Bundle?) {
 
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment?
-        val navController = navHostFragment?.navController
-
-        navController?.navigate(R.id.homeFragment)
     }
 
 }
