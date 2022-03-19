@@ -8,4 +8,16 @@
         android:id="@+id/homeFragment"
         android:name="com.resurrection.youtubealt.ui.home.HomeFragment"
         android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.resurrection.youtubealt.ui.discover.DiscoverFragment"
+        android:label="DiscoverFragment" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.resurrection.youtubealt.ui.library.LibraryFragment"
+        android:label="LibraryFragment" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.resurrection.youtubealt.ui.subscriptions.SubscriptionsFragment"
+        android:label="SubscriptionsFragment" />
 </navigation>
