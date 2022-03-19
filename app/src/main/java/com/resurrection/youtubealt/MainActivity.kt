@@ -1,11 +1,16 @@
 package com.resurrection.youtubealt
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.resurrection.base.core.activity.BaseActivity
+import com.resurrection.youtubealt.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding, MainActivityViewModel>(
+    R.layout.activity_main,
+    MainActivityViewModel::class.java
+) {
+
+    override fun init(savedInstanceState: Bundle?) {
+
     }
+
 }
