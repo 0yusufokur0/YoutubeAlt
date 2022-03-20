@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.discover.DiscoverFragment"
+        android:label="DiscoverFragment" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.library.LibraryFragment"
+        android:label="LibraryFragment" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.subscriptions.SubscriptionsFragment"
+        android:label="SubscriptionsFragment" />
+    <fragment
+        android:id="@+id/shortsFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.shorts.ShortsFragment"
+        android:label="ShortsFragment" />
+</navigation>
