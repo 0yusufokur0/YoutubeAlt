@@ -20,4 +20,8 @@
         android:id="@+id/subscriptionsFragment"
         android:name="com.resurrection.youtubealt.ui.main.fragments.subscriptions.SubscriptionsFragment"
         android:label="SubscriptionsFragment" />
+    <fragment
+        android:id="@+id/shortsFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.shorts.ShortsFragment"
+        android:label="ShortsFragment" />
 </navigation>

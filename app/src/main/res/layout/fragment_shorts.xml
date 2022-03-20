@@ -5,13 +5,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.main.fragments.home.HomeFragment">
+        tools:context=".ui.main.fragments.shorts.ShortsFragment">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="HomeFragment"
+            android:text="ShortsFragment"
             android:textSize="30sp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

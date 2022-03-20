@@ -17,7 +17,21 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(
     val navController: NavController by lazy { (supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment?)?.navController!! }
 
     override fun init(savedInstanceState: Bundle?) {
-
+        binding.homeBtn.setOnClickListener {
+            navController.navigate(R.id.homeFragment)
+        }
+        binding.discoverBtn.setOnClickListener {
+            navController.navigate(R.id.discoverFragment)
+        }
+        binding.shortsBtn.setOnClickListener {
+            navController.navigate(R.id.shortsFragment)
+        }
+        binding.subscriptionsBtn.setOnClickListener {
+            navController.navigate(R.id.subscriptionsFragment)
+        }
+        binding.libraryBtn.setOnClickListener {
+            navController.navigate(R.id.libraryFragment)
+        }
     }
 
 }
