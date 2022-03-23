@@ -43,8 +43,9 @@ android {
 }
 
 dependencies {
+
     // Base
-    implementation 'com.github.0yusufokur0:AppBase:1.3.5'
+    implementation 'com.github.0yusufokur0:AppBase:1.4.0'
 
     // Okhttp
     implementation('com.squareup.okhttp3:okhttp:4.9.2')
