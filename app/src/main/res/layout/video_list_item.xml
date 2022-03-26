@@ -8,7 +8,7 @@
 
         <variable
             name="videoItem"
-            type="com.resurrection.youtubealt.data.model.VideoModel" />
+            type="com.resurrection.youtubealt.data.model.video.VideoModel" />
     </data>
 
     <androidx.cardview.widget.CardView

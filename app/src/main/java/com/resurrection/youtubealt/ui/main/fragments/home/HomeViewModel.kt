@@ -3,7 +3,7 @@ package com.resurrection.youtubealt.ui.main.fragments.home
 import androidx.lifecycle.MutableLiveData
 import com.resurrection.base.core.viewmodel.BaseViewModel
 import com.resurrection.base.util.Resource
-import com.resurrection.youtubealt.data.model.VideoResponseModel
+import com.resurrection.youtubealt.data.model.video.VideoResponseModel
 import com.resurrection.youtubealt.data.repository.HomeRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

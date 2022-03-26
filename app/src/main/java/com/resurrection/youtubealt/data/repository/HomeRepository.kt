@@ -1,7 +1,7 @@
 package com.resurrection.youtubealt.data.repository
 
 import com.resurrection.base.component.NetworkManager
-import com.resurrection.youtubealt.data.model.VideoResponseModel
+import com.resurrection.youtubealt.data.model.video.VideoResponseModel
 
 class HomeRepository(private val networkManager: NetworkManager) {
 

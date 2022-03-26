@@ -47,6 +47,11 @@ dependencies {
     // Base
     implementation 'com.github.0yusufokur0:AppBase:1.4.2'
 
+    implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+
     // Okhttp
     implementation('com.squareup.okhttp3:okhttp:4.9.2')
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.2")

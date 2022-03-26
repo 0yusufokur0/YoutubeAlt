@@ -1,4 +1,4 @@
-package com.resurrection.youtubealt.data.model
+package com.resurrection.youtubealt.data.model.video
 
 import com.google.gson.annotations.SerializedName
 
