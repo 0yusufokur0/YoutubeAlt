@@ -47,6 +47,9 @@ dependencies {
     // Base
     implementation 'com.github.0yusufokur0:AppBase:1.4.2'
 
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+
+
     implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
