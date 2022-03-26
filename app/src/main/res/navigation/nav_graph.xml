@@ -24,4 +24,8 @@
         android:id="@+id/shortsFragment"
         android:name="com.resurrection.youtubealt.ui.main.fragments.shorts.ShortsFragment"
         android:label="ShortsFragment" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.resurrection.youtubealt.ui.main.fragments.player.VideoPlayerFragment"
+        android:label="VideoFragment" />
 </navigation>
